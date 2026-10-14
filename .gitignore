@@ -1,0 +1,23 @@
+# Credenciales — NUNCA subir
+.env
+*.env
+apikeys.env
+
+# Datos generados / descargados
+semana6_machine_learning/data/processed/
+semana6_machine_learning/artifacts/
+semana6_machine_learning/reports/
+semana8_cnn_transfer_learning/data_raw/
+semana8_cnn_transfer_learning/dataset/
+*.pdf
+*.joblib
+
+# Checkpoints / caches de notebooks y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Modelos pesados
+*.h5
+*.keras
+*.pt
